@@ -1,11 +1,12 @@
-package com.github.highcumontoa.springauditcompliancejava;
+package com.github.highcumontoa.audit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class AuditComplianceApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(AuditComplianceApplication.class, args);
     }
 }
